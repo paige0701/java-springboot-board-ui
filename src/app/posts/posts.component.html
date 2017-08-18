@@ -1,0 +1,6 @@
+<div *ngFor="let post of posts">
+  <a href="javascript:" (click)="getDetail(post.id)"><div>{{ post.id }}</div></a>
+  <div>{{ post.title }}</div>
+  <div>{{ post.content }}</div>
+</div>
+
